@@ -603,8 +603,8 @@ class Music(commands.Cog):
 	async def menu_(self, ctx):
 		command_list = ''
 		command_list += '!인중1 : 봇상태가 안좋을 때 쓰세요!'     #!
-		command_list += ','.join(command[0]) + '\n'     #!들어가자
-		command_list += ','.join(command[1]) + '\n'     #!나가자
+		command_list += ','.join(command[0]) + '\n'     #!들어가자1
+		command_list += ','.join(command[1]) + '\n'     #!나가자1
 		command_list += ','.join(command[2]) + ' [검색어] or [url]\n'     #!재생
 		command_list += ','.join(command[3]) + '\n'     #!일시정지
 		command_list += ','.join(command[4]) + '\n'     #!다시재생
