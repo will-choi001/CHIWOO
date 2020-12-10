@@ -1,1 +1,1 @@
-worker: python musicbot.py
+worker: python test_init_final.py
